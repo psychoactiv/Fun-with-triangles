@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Triangle quiz</h1>
+    <form class="newForm">
+      <label for="new">
+        <h3 id="new">
+          What is the third angle for the triangle where angle1 = 45° and angle2
+          = 45°?
+        </h3>
+        <input type="radio" class="first" name="val" value="45" /> 45°
+        <input type="radio" class="first" name="val" value="90" /> 90°
+        <input type="radio" class="first" name="val" value="60" /> 60°
+      </label>
+      <label for="new-1">
+        <h3 id="new-1">
+          If a triangle has an angle of 90 degrees, what is it called?
+        </h3>
+        <input type="radio" class="second" name="val-2" value="obtuse" /> obtuse
+        <input type="radio" class="second" name="val-2" value="acute" /> acute
+        <input
+          type="radio"
+          class="second"
+          name="val-2"
+          value="right angled"
+        />right angled
+      </label>
+      <label for="new-2">
+        <h3 id="new-2">ΔABC, AB = AC and ∠B = 50°, then find ∠C.</h3>
+        <input type="radio" class="third" name="val-3" value="50" /> 50°
+        <input type="radio" class="third" name="val-3" value="40" /> 40°
+        <input type="radio" class="third" name="val-3" value="80" />80°
+      </label>
+      <label for="new-3">
+        <h3 id="new-3">
+          Measures of the interior angles of the triangle always add up to ?
+        </h3>
+        <input type="radio" class="fourth" name="val-4" value="100" /> 100°
+        <input type="radio" class="fourth" name="val-4" value="120" /> 120°
+        <input type="radio" class="fourth" name="val-4" value="180" /> 180°
+      </label>
+    </form>
+    <button class="select">Check</button>
+    <div class="output"></div>
+    <script src="script2.js"></script>
+  </body>
+</html>
