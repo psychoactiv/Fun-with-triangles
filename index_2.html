@@ -4,50 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Triangle Quiz</title>
   </head>
   <body>
-    <h1>Triangle quiz</h1>
-    <form class="newForm">
-      <label for="new">
-        <h3 id="new">
-          What is the third angle for the triangle where angle1 = 45° and angle2
-          = 45°?
-        </h3>
-        <input type="radio" class="first" name="val" value="45" /> 45°
-        <input type="radio" class="first" name="val" value="90" /> 90°
-        <input type="radio" class="first" name="val" value="60" /> 60°
+    <nav class="navbar">
+      <div>
+        <h1>Fun With Triangles</h1>
+        <ul>
+          <li>
+            <a href="https://pritammajumdar.netlify.app/index.html">Home</a>
+          </li>
+          <li class="float">
+            <a href="/index.html">Is triangle</a>
+          </li>
+          <li>
+            <a href="/index_2.html">Quiz</a>
+          </li>
+          <li>
+            <a href="/index3.html">Hypotenuse</a>
+          </li>
+          <li>
+            <a href="/index4.html">Area of triangle</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h1>Triangle quiz</h1>
+      <form class="newForm">
+        <label for="new">
+          <h2 id="new">
+            What is the third angle for the triangle where angle 1 = 45° and
+            angle 2 = 45°?
+          </h2>
+          <input type="radio" class="first" name="val" value="45" />45°
+          <input type="radio" class="first" name="val" value="90" /> 90°
+          <input type="radio" class="first" name="val" value="60" /> 60°
+        </label>
+        <label for="new-1">
+          <h2 id="new-1">
+            If a triangle has an angle of 90 degrees, what is it called?
+          </h2>
+          <input type="radio" class="second" name="val-2" value="obtuse" />
+          obtuse
+          <input type="radio" class="second" name="val-2" value="acute" /> acute
+          <input
+            type="radio"
+            class="second"
+            name="val-2"
+            value="right angled"
+          />right angled
+        </label>
+        <label for="new-2">
+          <h2 id="new-2">ΔABC, AB = AC and ∠B = 50°, then find ∠C.</h2>
+          <input type="radio" class="third" name="val-3" value="50" /> 50°
+          <input type="radio" class="third" name="val-3" value="40" /> 40°
+          <input type="radio" class="third" name="val-3" value="80" />80°
+        </label>
+        <label for="new-3">
+          <h2 id="new-3">
+            Measures of the interior angles of the triangle always add up to ?
+          </h2>
+          <input type="radio" class="fourth" name="val-4" value="100" /> 100°
+          <input type="radio" class="fourth" name="val-4" value="120" /> 120°
+          <input type="radio" class="fourth" name="val-4" value="180" /> 180°
+        </label>
+      </form>
+      <br /><br />
+      <button class="select">Check</button>
+      <div class="output"></div>
+    </div>
+    <footer>
+      <label>
+        <h2>Connect with me on my socials 🔗</h2>
       </label>
-      <label for="new-1">
-        <h3 id="new-1">
-          If a triangle has an angle of 90 degrees, what is it called?
-        </h3>
-        <input type="radio" class="second" name="val-2" value="obtuse" /> obtuse
-        <input type="radio" class="second" name="val-2" value="acute" /> acute
-        <input
-          type="radio"
-          class="second"
-          name="val-2"
-          value="right angled"
-        />right angled
-      </label>
-      <label for="new-2">
-        <h3 id="new-2">ΔABC, AB = AC and ∠B = 50°, then find ∠C.</h3>
-        <input type="radio" class="third" name="val-3" value="50" /> 50°
-        <input type="radio" class="third" name="val-3" value="40" /> 40°
-        <input type="radio" class="third" name="val-3" value="80" />80°
-      </label>
-      <label for="new-3">
-        <h3 id="new-3">
-          Measures of the interior angles of the triangle always add up to ?
-        </h3>
-        <input type="radio" class="fourth" name="val-4" value="100" /> 100°
-        <input type="radio" class="fourth" name="val-4" value="120" /> 120°
-        <input type="radio" class="fourth" name="val-4" value="180" /> 180°
-      </label>
-    </form>
-    <button class="select">Check</button>
-    <div class="output"></div>
+      <ul>
+        <li>
+          <a href="https://github.com/psychoactiv">
+            <img src="/img/icons8-github (1).svg" alt="Github" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/speghettiScript?t=Um97FEQuUauZ871X5T8Zag&s=08"
+          >
+            <img src="/img/Twitter-01.png" width="70" alt="twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/pritam-majumdar-31a229183">
+            <img src="/img/icons8-linkedin-64.png" alt="LinkedIn" />
+          </a>
+        </li>
+      </ul>
+      <h3>Made with ❤️</h3>
+    </footer>
     <script src="script2.js"></script>
   </body>
 </html>
