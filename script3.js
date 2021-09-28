@@ -4,7 +4,8 @@ const output = document.querySelector(".output");
 
 function calc(a, b) {
   const ans = Math.sqrt(a * a + b * b);
-  output.innerText = "Hypotenuse is" + ans;
+  const ans2 = ans.toFixed(2);
+  output.innerText = "Hypotenuse is " + ans2;
 }
 
 function funcCall() {

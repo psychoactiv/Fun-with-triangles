@@ -12,5 +12,5 @@ function generate() {
 function nextFunc(base, height) {
   let ans = base * height * 0.5;
   output.innerText =
-    "This the area of the triangle of the given values:- " + ans;
+    "The area of the triangle of the given values is:- " + ans;
 }
