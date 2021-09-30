@@ -10,7 +10,13 @@ function generate() {
 }
 
 function nextFunc(base, height) {
-  let ans = base * height * 0.5;
-  output.innerText =
-    "The area of the triangle of the given values is:- " + ans;
+  if (base > 0 && height > 0) {
+    let ans = base * height * 0.5;
+    output.innerText =
+      "The area of the triangle of the given values is:- " + ans + " cm square";
+  } else if (base == 0 || height == 0) {
+    output.innerText = "Values should be grater than zero";
+  } else {
+    output.innerText = "Please enter positive numbers in the input box";
+  }
 }
